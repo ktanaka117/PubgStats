@@ -9,7 +9,7 @@
 import Foundation
 
 final class StatsAPIDataStore {
-    func getStats(nickName: String)  {
+    func getStats(nickname: String)  {
         let url = URL(string: "https://pubgtracker.com/api/profile/pc/\(nickName)")!
         var request = URLRequest(url: url)
         let apiKey = Bundle.main.infoDictionary!["TRN-Api-Key"] as! String
