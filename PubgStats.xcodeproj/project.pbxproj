@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952BE7FC1F3D8F6D001AAA0F /* PubgStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952BE7FB1F3D8F6D001AAA0F /* PubgStats.swift */; };
 		95965BF01F3425A00040A41E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95965BEF1F3425A00040A41E /* AppDelegate.swift */; };
 		95965BF51F3425A00040A41E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95965BF31F3425A00040A41E /* Main.storyboard */; };
 		95965BF71F3425A00040A41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95965BF61F3425A00040A41E /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952BE7FB1F3D8F6D001AAA0F /* PubgStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PubgStats.swift; sourceTree = "<group>"; };
 		95965BEC1F3425A00040A41E /* PubgStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PubgStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95965BEF1F3425A00040A41E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95965BF41F3425A00040A41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				95965BEF1F3425A00040A41E /* AppDelegate.swift */,
 				95EB405E1F376BD300EDC34C /* SearchViewController.swift */,
 				95EB40601F376BE000EDC34C /* StatsViewController.swift */,
+				952BE7FB1F3D8F6D001AAA0F /* PubgStats.swift */,
 				95965C0F1F3425CF0040A41E /* StatsAPIDataStore.swift */,
 				95965BF31F3425A00040A41E /* Main.storyboard */,
 				95965BF61F3425A00040A41E /* Assets.xcassets */,
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952BE7FC1F3D8F6D001AAA0F /* PubgStats.swift in Sources */,
 				95EB405F1F376BD300EDC34C /* SearchViewController.swift in Sources */,
 				95965C101F3425CF0040A41E /* StatsAPIDataStore.swift in Sources */,
 				95EB40611F376BE000EDC34C /* StatsViewController.swift in Sources */,
