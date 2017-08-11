@@ -10,4 +10,9 @@ import UIKit
 
 final class SearchViewController: UIViewController {
     
+    override func viewDidLoad() {
+        let apiDataStore = StatsAPIDataStore()
+        apiDataStore.getStats(nickName: "ktanaka117")
+    }
+    
 }

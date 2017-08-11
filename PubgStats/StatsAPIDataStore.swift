@@ -9,10 +9,11 @@
 import Foundation
 
 final class StatsAPIDataStore {
-    func getStats()  {
-        let url = URL(string: "https://pubgtracker.com/api/profile/pc/ktanaka117")!
+    func getStats(nickName: String)  {
+        let url = URL(string: "https://pubgtracker.com/api/profile/pc/\(nickName)")!
         var request = URLRequest(url: url)
-        request.addValue("", forHTTPHeaderField: "TRN-Api-Key")
+        let apiKey = Bundle.main.infoDictionary!["TRN-Api-Key"] as! String
+        request.addValue(apiKey, forHTTPHeaderField: "TRN-Api-Key")
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             let json = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments)
