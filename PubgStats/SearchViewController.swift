@@ -12,7 +12,7 @@ final class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         let apiDataStore = StatsAPIDataStore()
-        apiDataStore.getStats(nickName: "ktanaka117")
+        apiDataStore.getStats(nickname: "ktanaka117")
     }
     
 }
