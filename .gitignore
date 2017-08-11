@@ -65,3 +65,4 @@ fastlane/screenshots
 *.generated.swift
 
 PubgStats/Info.plist
+PubgStats.xcodeproj/project.xcworkspace/xcuserdata/tanaka.kenji.xcuserdatad
